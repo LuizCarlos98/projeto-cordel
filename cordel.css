@@ -20,13 +20,14 @@
 header {
   background-color: black;
   min-height: 45vh;
+  width: auto;
   color: white;
   text-align: center;
 }
 
 header h1 {
   font-family: var(--fonte1);
-  font-size: 8em;
+  font-size: 12vh;
   font-variant: small-caps;
   padding-top: 50px;
 }
@@ -38,7 +39,7 @@ header p {
 
 header a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold;
+  font-weight: bolder;
   color: white;
   text-decoration: none;
 }
@@ -49,22 +50,24 @@ header a:hover {
 
 section.poesia {
   font-family: var(--fonte2);
-  padding: 45px 30px;
+  padding: 10vh;
   font-size: 2.5em;
   font-weight: bold;
 }
 
 .imagem p {
   background-color: rgba(0, 0, 0, 0.432);
+  box-shadow: 3px 4px 8px 0px black;
+  border-radius: 5px;
   font-family: var(--fonte2);
   color: white;
   padding-left: 4px;
-  font-size: 2.8em;
+  font-size: 2.5em;
   font-weight: normal;
   position: absolute;
   left: 2%;
   top: 8%;
-  width: 12em;
+  width: 95vh;
 }
 
 section.imagem {
@@ -73,7 +76,7 @@ section.imagem {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top center;
-  background-size: 80em;
+  background-size: cover;
   height: 42em;
 }
 
@@ -83,7 +86,7 @@ section.imagem#img2 {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top center;
-  background-size: 80em;
+  background-size: cover;
   height: 41em;
 }
 
